@@ -22,7 +22,7 @@ class Search(BasePage):
     # value='selenium'
     #高级搜索页面搜索按钮定位
     performsearch_loc=(By.CSS_SELECTOR,".search-cta")
-    filename='image.png'
+    filename='定位异常.png'
     #冒烟搜索
     def search(self,value):
         try:
